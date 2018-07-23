@@ -19,7 +19,7 @@
             else:
                 for j in range(len(rectangle)):
                     rectangle[j].insert(0, i)
-                    rectangle[j].append( i)
+                    rectangle[j].append(i)
                 num = len(rectangle[len(rectangle)/2])
                 rectangle.insert(0,[i] * num)
                 rectangle.append([i] * num)
