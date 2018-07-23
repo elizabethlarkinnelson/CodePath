@@ -29,7 +29,7 @@
 
 #Level3 - Kth SMALLEST
 #Solution:
-#Note: This satisfies not modifying original array, but uses O(n) space.
+#Note: This satisfies not modifying original array, but uses O(n) space for the copied array.
  def kthsmallest(self, A, B):
         
         sorted_A = sorted(A)
